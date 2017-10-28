@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="../TriviaGame/Assets/css/style.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="../TriviaGame/Assets/javascript/app.js"></script>
+
+</head>
+<body>
+
+	<h1 id="title">Music Trivia!</h1>
+
+	<button id="start">Begin!</button>
+	<button id="reset">Reset</button>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Time Remaining:</h2> 
+				<h2 id="timer"></h2>
+			</div>
+		</div>
+	</div>
+
+<p id="text">Who wrote "All Along The Watchtower?</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<p class="question">
+					<button class="incorrect" id="n" value="wrong">Dolly Parton</button>
+					<button class="incorrect" id="n" value="wrong">Jimi Hendrix</button>
+					<button class="right" id="y" value="correct">Bob Dylan</button>
+					<button class="incorrect" id="n" value="wrong">Fats Domino</button>
+				</p>
+			</div>
+		</div>
+	</div>
+<p id="text">How many members were in Earth, Wind, and Fire?</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<p class="question">
+						<button class="right" id="y" value="correct">5</button>
+						<button class="incorrect" id="n" value="wrong">3</button>
+						<button class="incorrect" id="n" value="wrong">4</button>
+						<button class="incorrect" id="n" value="wrong">Yes</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	<p id="text">How long have The Rolling Stones been together?</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p class="question">
+							<button class="incorrect" id="n" value="wrong">40</button>
+							<button class="incorrect" id="n" value="wrong">60</button>
+							<button class="incorrect" id="n" value="wrong">Forever</button>
+							<button class="right" id="y" value="correct">50</button>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		<h2 id="result"></h2>
+
+
+</body>
+</html>
